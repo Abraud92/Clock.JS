@@ -1,14 +1,83 @@
-#clock {
+/*body {
+    background-color: white;
 }
+h1 {
+    color: grey;
+    text-align: center;
+    p{
+      font-family: serif;
+    }
+  }
+h5 {
+    color: grey;
+    text-align: center;
+    font-family: "Times-New-Roman", Times, serif;
+  }
+p {
+  font-family: serif;
 
-#clock img {
+.button {
+      background-color:
+      border: none;
+      color: tan;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+  .test{
+    height:200px;
+    width:200px;
+}*/
+body {
+  text-align: center;
 }
-
-#hour {
+.heading {
+  color: dimgray;
+  display: inline;
 }
-
-#minute {
+.container {
+  width: 100%;
+  height: 210px;
 }
-
-#second {
+.location {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+}
+div {
+  width: 160px;
+  height: 180px;
+  margin: 4px;
+}
+#tile1{
+  background: url("../img/san-francisco.jpg");
+  display: inline-block;
+  background-size: cover;
+}
+#tile2{
+  background: url("../img/new-york.jpg");
+  display: inline-block;
+  background-size: contain;
+}
+#tile3{
+  background: url("../img/london.jpg");
+  display: inline-block;
+  background-size: contain;
+}
+#tile4{
+  background: url("../img/napa.jpg");
+  display: inline-block;
+  background-size: cover;
+}
+#tile5{
+  background: url("../img/sonoma.jpg");
+  display: inline-block;
+  background-size: contain;
+}
+#tile6{
+  background: url("../img/san-francisco-2.jpg");
+  display: inline-block;
+  background-size: contain;
 }
