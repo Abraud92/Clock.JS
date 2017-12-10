@@ -1,83 +1,126 @@
-/*body {
-    background-color: white;
-}
-h1 {
-    color: grey;
-    text-align: center;
-    p{
-      font-family: serif;
-    }
-  }
-h5 {
-    color: grey;
-    text-align: center;
-    font-family: "Times-New-Roman", Times, serif;
-  }
-p {
-  font-family: serif;
-
-.button {
-      background-color:
-      border: none;
-      color: tan;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-  }
-  .test{
-    height:200px;
-    width:200px;
-}*/
 body {
-  text-align: center;
+	width: 99%;
 }
-.heading {
-  color: dimgray;
-  display: inline;
+.clock {
+	width: 400px;
+	margin: 5% auto 0px auto;
 }
-.container {
-  width: 100%;
-  height: 210px;
+#clockface {
+	position: relative;
+	display: block;
+	width: 340px;
+	height: 340px;
+	background: white;
+	border-radius: 180px;
+	border: 10px solid gold;
+	box-shadow: 0 0 3px 0px red;
 }
-.location {
-  color: white;
-  text-align: center;
-  margin-top: 75px;
+.minutes {
+	position: absolute;
+	width: 3px;
+	height: 15px;
+	top: 0px;
+	left: 49.5%;
+	background: grey;
+	transform-origin: 50% 170px;
 }
-div {
-  width: 160px;
-  height: 180px;
-  margin: 4px;
+.fiveminutes {
+	position: absolute;
+	width: 3px;
+	height: 25px;
+	top: 0px;
+	left: 49.5%;
+	background: black;
+	transform-origin: 50% 170px;
+	z-index: 1;
 }
-#tile1{
-  background: url("../img/san-francisco.jpg");
-  display: inline-block;
-  background-size: cover;
+.hour {
+	position: absolute;
+	width: 8px;
+	height: 130px;
+	top: 70px;
+	left: 49%;
+	border-radius: 7px;
+	background: black;
+	transform-origin: 49% 100px;
 }
-#tile2{
-  background: url("../img/new-york.jpg");
-  display: inline-block;
-  background-size: contain;
+.min {
+	position: absolute;
+	width: 8px;
+	height: 160px;
+	top: 40px;
+	left: 48.5%;
+	border-radius: 7px;
+	background: black;
+	transform-origin: 48.5% 131px;
 }
-#tile3{
-  background: url("../img/london.jpg");
-  display: inline-block;
-  background-size: contain;
+.sec {
+	position: absolute;
+	width: 4px;
+	height: 160px;
+	top: 40px;
+	left: 49%;
+	border-radius: 7px;
+	background: red;
+	transform-origin: 49% 131px;
 }
-#tile4{
-  background: url("../img/napa.jpg");
-  display: inline-block;
-  background-size: cover;
+.centerpoint {
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: black;
+	position: absolute;
+	left: 158px;
+	top: 158px;
 }
-#tile5{
-  background: url("../img/sonoma.jpg");
-  display: inline-block;
-  background-size: contain;
+.numbers {
+	position: absolute;
+	font-size: 30px;
 }
-#tile6{
-  background: url("../img/san-francisco-2.jpg");
-  display: inline-block;
-  background-size: contain;
+.one {
+	top: 40px;
+	left: 225px;
 }
+.two {
+	top: 85px;
+	left: 275px;
+}
+.three {
+	top: 155px;
+	left: 295px;
+}
+.four {
+	top: 220px;
+	left: 275px;
+}
+.five {
+	top: 265px;
+	left: 230px;
+}
+.six {
+	top: 280px;
+	left: 160px;
+}
+.seven {
+	top: 265px;
+	left: 95px;
+}
+.eight {
+	top: 220px;
+	left: 50px;
+}
+.nine {
+	top: 155px;
+	left: 30px;
+}
+.ten {
+	top: 85px;
+	left: 45px;
+}
+.eleven {
+	top: 40px;
+	left: 100px;
+}
+.twelve {
+	top: 25px;
+	left: 155px;
